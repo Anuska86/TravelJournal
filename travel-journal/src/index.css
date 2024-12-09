@@ -1,0 +1,17 @@
+header {
+  height: 150px;
+  background-color: #adc178;
+}
+
+nav {
+  align-items: center;
+  height: 100%;
+}
+
+h2 {
+  font-size: 1.8em;
+  line-height: 1.1;
+  margin-top: 20px;
+  color: #3b2e24;
+  text-align: center;
+}
