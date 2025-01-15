@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 
 START: 
-
+npm create vite@latest my-react-app 
 npm create vite@lastest
 create-vite
 
