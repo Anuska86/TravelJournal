@@ -59,12 +59,12 @@ article.journal-entry .ubication {
 
 .info-container span.country {
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin-right: 12px;
 }
 
 .info-container a {
-  color: #2b283a;
+  color: #4124cd;
   font-size: 0.7rem;
 }
 
@@ -83,8 +83,9 @@ article.journal-entry .ubication {
 
 .info-container p.entry-text {
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: -webkit-box;
+  line-clamp:3;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
