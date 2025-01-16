@@ -1,11 +1,11 @@
-import japan from "../imgs/japan.png";
 import ubication from "../imgs/ubication.png";
 
-export default function Entry() {
+export default function Entry(props) {
+  console.log(props);
   return (
     <article className="journal-entry">
       <div className="japan-img-container">
-        <img className="japan" src={japan} alt="picture of Japan" />
+        <img className="japan" src={} alt={props.img.alt} />
       </div>
       <div className="info-container">
         <img className="ubication" src={ubication} alt="ubication marker" />
