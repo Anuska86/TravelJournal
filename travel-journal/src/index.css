@@ -30,6 +30,7 @@ h2 {
 article.journal-entry {
   display: flex;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .japan-img-container {
