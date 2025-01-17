@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Entry from "./components/Entry";
 import data from "./data";
+import Footer from "./components/Footer";
 
 export default function App() {
   console.log(data);
@@ -24,6 +25,7 @@ export default function App() {
         <Header />
       </div>
       <div className="entries">{entries}</div>
+      <div className="footer"><Footer /></div>
     </>
   );
 }

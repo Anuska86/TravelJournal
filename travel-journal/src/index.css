@@ -60,10 +60,9 @@ article.journal-entry .ubication {
 }
 
 div.info-container {
-  background-color:#EFF3EA ;
+  background-color: #eff3ea;
   border-radius: 5px;
 }
-
 
 .info-container span.country {
   text-transform: uppercase;
@@ -101,4 +100,15 @@ div.info-container {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+footer {
+  height: 100px;
+  background-color: #c9d1ae;
+  border-radius: 5px;
+}
+
+.footerItems {
+  display: flex;
+  margin-top: 10px;
 }
