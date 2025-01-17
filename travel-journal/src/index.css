@@ -1,6 +1,12 @@
 header {
-  height: 150px;
-  background-color: #adc178;
+  height: 100px;
+  background-color: #c9d1ae;
+  border-radius: 5px;
+}
+
+.headerItems {
+  display: flex;
+  margin-top: 10px;
 }
 
 nav {
@@ -13,18 +19,12 @@ h2 {
   font-family: cursive;
   font-weight: 300;
   line-height: 1.1;
-  margin-top: 20px;
   color: #3b2e24;
   text-align: center;
 }
 
 .icon {
   width: 75px;
-}
-
-.headerItems {
-  display: flex;
-  margin-top: 25px;
 }
 
 article.journal-entry {
@@ -49,14 +49,21 @@ article.journal-entry {
 }
 
 .ubication {
-  width: 60px;
-  height: 50px;
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
 }
 
 article.journal-entry .ubication {
   width: fit-content;
   margin-right: 4px;
 }
+
+div.info-container {
+  background-color:#EFF3EA ;
+  border-radius: 5px;
+}
+
 
 .info-container span.country {
   text-transform: uppercase;
@@ -80,13 +87,17 @@ article.journal-entry .ubication {
 
 .info-container p.trip-dates {
   font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .info-container p.entry-text {
+  margin-left: 10px;
+  margin-right: 10px;
   line-height: 1.5;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   display: block;
-  line-clamp:3;
+  line-clamp: 3;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
