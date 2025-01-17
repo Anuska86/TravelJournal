@@ -33,7 +33,7 @@ article.journal-entry {
   margin-bottom: 10px;
 }
 
-.japan-img-container {
+.main-image-container {
   width: 400px;
   height: 400px;
   overflow: hidden;
@@ -42,7 +42,7 @@ article.journal-entry {
   margin-right: 19px;
 }
 
-.japan {
+.main-image {
   height: 100%;
   width: 100%;
   object-fit: cover;

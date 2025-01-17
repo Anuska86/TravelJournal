@@ -1,14 +1,12 @@
-import ubication from "../imgs/ubication.png";
-
 export default function Entry(props) {
   console.log(props);
   return (
     <article className="journal-entry">
-      <div className="japan-img-container">
-        <img className="japan" src={props.img} alt={props.img_properties.alt} />
+      <div className="main-image-container">
+        <img className="main-image" src={props.img} alt={props.img_properties.alt} />
       </div>
       <div className="info-container">
-        <img className="ubication" src={ubication} alt="ubication marker" />
+        <img className="ubication" src="./imgs/ubication.png" alt="ubication marker" />
         <span className="country">{props.country}</span>
         <a href={props.googleMapsLink}>View on Google Maps </a>
         <h2 className="entry-title">{props.title}</h2>
