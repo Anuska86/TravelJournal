@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 export default function App() {
   console.log(data);
 
-  const entries = data.map((entry) => <Entry key={entry.id} entry={entry} />);
+  const entries = data.map((entry) => <Entry key={entry.id} {...entry} />);
 
   return (
     <>

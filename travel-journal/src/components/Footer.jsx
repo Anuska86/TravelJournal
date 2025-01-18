@@ -4,7 +4,7 @@ export default function Footer() {
       <nav>
         <span className="footerItems"></span>
         <span>
-          <h4 className="footerLetters">2024 - Author: Ana Sappia Rey</h4>
+          <h4 className="footerLetters">© 2024 - Author: Ana Sappia Rey</h4>
         </span>
       </nav>
     </footer>
