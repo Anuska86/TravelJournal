@@ -1,8 +1,10 @@
 export default [
   {
     id: 1,
-    img_properties: "Picture of a beautiful japaness temple",
-    img: "./imgs/japan.png",
+    img: {
+      src: "./imgs/japan.png",
+      alt: "Picture of a beautiful japaness temple",
+    },
     title: "Japan",
     country: "Japan",
     googleMapsLink: "https://maps.app.goo.gl/SDiu3MdDLtgodjGd8",
@@ -12,18 +14,22 @@ export default [
 
   {
     id: 2,
-    img_properties: "Picture of Genova",
-    img: "./imgs/genova.png",
+    img: {
+      src: "./imgs/genova.png",
+      alt: "Picture of Genova",
+    },
     title: "Genova",
     country: "Italy",
     googleMapsLink: "https://maps.app.goo.gl/D7tBasM6GQkAM1bk6",
     date: "13 May, 2024 - 20 May, 2024",
-    text: "Genoa (Genova) is a port city and the capital of northwest Italy's Liguria region. It's known for its central role in maritime trade over many centuries. In the old town stands the Romanesque Cathedral of San Lorenzo, with its black-and-white-striped facade and frescoed interior. Narrow lanes open onto monumental squares like Piazza de Ferrari, site of an iconic bronze fountain and Teatro Carlo Felice opera house.The Republic of Genoa was part of the French Empire until 1815, when the delegates of the Congress of Vienna sanctioned its incorporation into Piedmont ( Kingdom of Sardinia )."
+    text: "Genoa (Genova) is a port city and the capital of northwest Italy's Liguria region. It's known for its central role in maritime trade over many centuries. In the old town stands the Romanesque Cathedral of San Lorenzo, with its black-and-white-striped facade and frescoed interior. Narrow lanes open onto monumental squares like Piazza de Ferrari, site of an iconic bronze fountain and Teatro Carlo Felice opera house.The Republic of Genoa was part of the French Empire until 1815, when the delegates of the Congress of Vienna sanctioned its incorporation into Piedmont ( Kingdom of Sardinia ).",
   },
   {
     id: 3,
-    img_properties: "Picture of Ireland",
-    img: "./imgs/ireland.png",
+    img: {
+      src: "./imgs/ireland.png",
+      alt: "Picture of Ireland",
+    },
     title: "Ireland",
     country: "Ireland",
     googleMapsLink: "https://maps.app.goo.gl/ReoB1Vdm1UqfFad38",
